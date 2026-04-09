@@ -98,48 +98,10 @@ nav .container {
   margin-bottom: 36px;
 }
 
-/* Subscribe form */
-.subscribe-form {
-  display: flex;
-  gap: 10px;
-  max-width: 440px;
-}
-
-.subscribe-form input {
-  flex: 1;
-  padding: 12px 16px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--card-bg);
-  font-size: 0.95rem;
-  color: var(--text);
-  outline: none;
-  transition: border-color 0.15s;
-}
-
-.subscribe-form input:focus { border-color: var(--green); }
-.subscribe-form input::placeholder { color: #ABABAB; }
-
-.btn-primary {
-  padding: 12px 22px;
-  background: var(--green);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background 0.15s;
-}
-
-.btn-primary:hover { background: var(--green-light); }
-
-.subscribe-note {
-  margin-top: 10px;
-  font-size: 0.8rem;
-  color: #ABABAB;
+/* Substack embed */
+.substack-embed {
+  max-width: 480px;
+  margin-top: 8px;
 }
 
 /* Divider */
