@@ -170,6 +170,17 @@ nav .container {
   flex-shrink: 0;
 }
 
+/* About photo */
+.about-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  margin-bottom: 24px;
+  display: block;
+}
+
 /* About section */
 .about-section {
   padding: 0 0 80px;
